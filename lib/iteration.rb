@@ -38,4 +38,5 @@ def total_even_pairs(src)
       total += element[0] + element[1]
     end
   end
+  total
 end
