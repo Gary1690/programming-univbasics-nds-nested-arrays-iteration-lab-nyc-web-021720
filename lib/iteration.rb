@@ -10,7 +10,7 @@ def join_ingredients(src)
   src.each do |element|
     array_of_joined_ingredients << element.join(' ')
   end
-
+  array_of_joined_ingredients
 end
 
 def find_greater_pair(src)
