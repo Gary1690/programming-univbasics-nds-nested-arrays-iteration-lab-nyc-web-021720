@@ -8,7 +8,7 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   array_of_joined_ingredients =[]
   src.each do |element|
-    array_of_joined_ingredients << element.join(' ')
+    array_of_joined_ingredients << "I love #{element.join(' and ') on my pizza}
   end
   array_of_joined_ingredients
 end
